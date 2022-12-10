@@ -75,8 +75,6 @@ forest.forEach((trees, forestIndex, forestSelf) => {
 
 console.log("Part 1 - Visible trees: ", visibleTrees);
 
-console.log(testForest);
-
 const getYScore = (tree, x, y, forest) => {
   const aboveTrees = [];
   const belowTrees = [];
